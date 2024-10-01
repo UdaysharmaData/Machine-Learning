@@ -1,5 +1,3 @@
-
-
 from flask import Flask,render_template,request
 import pickle
 
@@ -9,7 +7,7 @@ app = Flask(__name__)
 
 
 #load the model
-model = pickle.load (open ('eps_v1.sav' , 'rb'))
+model = pickle.load (open ('D:/Data Science/Machine-Learning/ML Project/Credit Risk Modelling/Learnings/Flask Deployment/eps_v1.sav' , 'rb'))
 
 
 
